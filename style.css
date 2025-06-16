@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color: red;
+}
+
+.bg{
+    background-image: url(https://images.pexels.com/photos/22624391/pexels-photo-22624391/free-photo-of-blanco-y-negro-mujer-vintage-vestido.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  
+}
+
+h1, p{
+    font-family: "Playfair Display", serif;
+}
+
+igm{
+  max-width: 100%;
+  
+}
+
+.gallery{
+  width: 100%;
+    background: black;
+    padding: 10px;
+}
+
+.gallery img{
+    width: 100%;
+    background: white;
+    padding: 20px;
+    cursor:pointer ;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+#gallery-modal .modal-img{
+  width: 100%;
+}
